@@ -785,20 +785,4 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'limpieza_almortza',
-  'username' => 'limpieza_almortza',
-  'password' => '11/01/1979/Gdc',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['install_profile'] = 'lightning';
-$config_directories['sync'] = 'sites/default/files/config_HQs4Uablr2J7dCk7lBN77TmQov4r9YWk5PEC30ZKn16pG9vABXIZ6zejgGPWVuQ9sYBkzEj3Cg/sync';
-$settings['trusted_host_patterns'] = array(
-   '^limpiezasalmortza\.com$',
-   '^www\.limpiezasalmortza\.com$',
-   '^78\.46.\104.\91$',
-);
+
